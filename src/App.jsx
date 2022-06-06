@@ -31,14 +31,14 @@ function App() {
       itnterval = setInterval(() => {
         setTime((prevTime) => prevTime + 10);
       }, 10);
-      console.log(Math.floor((time / 1000) % 60));
-      toast({
-        title: "残り時間",
-        status: "info",
-        duration: 3000,
-        isClosable: true,
-        position: "top",
-      });
+      // console.log(Math.floor((time / 1000) % 60));
+      // toast({
+      //   title: "残り時間",
+      //   status: "info",
+      //   duration: 3000,
+      //   isClosable: true,
+      //   position: "top",
+      // });
     } else {
       // カウントストップ
       // setIntervalをクリア
